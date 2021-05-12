@@ -2,7 +2,7 @@ import { useHistory } from "react-router";
 import styled from "styled-components";
 import { PokemonLogoURL } from "./constants";
 
-export const HomePage = ({setPokemon}) => {
+export const HomePage = ({ setPokemon }) => {
        const history = useHistory();
 
        function handleSearchClick(){

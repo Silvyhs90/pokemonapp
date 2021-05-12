@@ -1,6 +1,6 @@
 import { Router } from "./Router";
 
-function App() {
+function App(){
   return <Router />;
 }
 
